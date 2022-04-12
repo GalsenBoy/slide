@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.div_global{
+    width: 441px;
+    overflow: hidden;
+    margin: 150px auto;
+}
+.global_image{
+    width: 1323px;
+    animation: glisse 5s infinite;
+}
+.pokemon{
+    float: left;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-441px);
+    }
+    100%{
+        transform: translateX(-882px);
+    }
+}
